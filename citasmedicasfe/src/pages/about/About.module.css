@@ -1,0 +1,17 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    height: 73vh;
+    margin-top: 10px;
+}
+h2 {
+    color: #45d2da;
+}
+p {
+    max-width: 800px;
+    font-size: 18px;
+}

@@ -1,0 +1,101 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 530px;
+    padding-top: 14px;
+}
+.head-form, .body-form, .footer-form {
+    border: 2px solid #e3e3e3;
+}
+
+.login-form {
+    width: 450px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-form, .footer-form {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #f3f3f3;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.head-form {
+    font-size: 35px;
+}
+.footer-form {
+    font-size: 20px;
+}
+.body-form {
+    display: flex;
+    width: 100%;
+    height: 330px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.body-form > img {
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}
+form label {
+    background-color: #ededed;
+    padding: 9.5px;
+    color: #777777;
+    margin-right: -2px;
+    border: 2px solid #d1d1d1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+form input {
+    background-color: white;
+    padding: 11px;
+    width: 220px;
+    border: 2px solid #d1d1d1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+form div {
+    display: flex;
+    justify-content: center;
+}
+form button {
+    background-color: rgba(52, 166, 191, 0.94);
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+}
+label img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.register {
+    display: flex;
+    border: 2px solid red;
+    color: red;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 15px;
+    height: 30px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+.register:hover {
+    transform: scale(1.1);
+}
+.login-form p {
+    height: 10px;
+    color: red;
+}

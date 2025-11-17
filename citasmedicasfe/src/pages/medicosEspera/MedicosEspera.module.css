@@ -1,0 +1,61 @@
+.body {
+    width: 50%;
+    background-color: #ededed;
+    justify-content: center;
+    margin-left: 350px;
+    padding: 1px 12px 12px 12px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 5px;
+}
+.notFound {
+    background-color: white;
+    color: #777777;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    margin-left: 350px;
+}
+.medico {
+    display: flex;
+    width: 680px;
+    margin-top: 10px;
+    height: 195px;
+    background-color: white;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    margin-left: -3px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aceptar-button, .rechazar-button {
+    display: flex;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    border-radius: 100px;
+    color: white;
+    padding: 15px;
+    height: 40px;
+    align-items: center;
+}
+.aceptar-button {
+    background-color: rgba(22,180,0,0.53);
+}
+.rechazar-button {
+    background-color: red;
+}
+.aceptar-button:hover {
+    background-color: rgba(9, 142, 0, 0.53);
+    transform: scale(1.1);
+}
+.rechazar-button:hover {
+    background-color: #980000;
+    transform: scale(1.1);
+}

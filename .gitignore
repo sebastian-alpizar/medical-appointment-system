@@ -1,0 +1,106 @@
+# ===========================
+# GLOBAL SETTINGS
+# ===========================
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+
+# ===========================
+# JAVA / SPRING BOOT / MAVEN
+# ===========================
+
+# Directorios de build
+target/
+out/
+
+# Archivos generados por Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ Idea
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# Eclipse / STS
+.project
+.classpath
+.factorypath
+.settings/
+.springBeans
+
+# Archivos de compilación
+*.class
+
+# Variables de entorno backend
+citasmedicasbe/.env
+citasmedicasbe/*.env
+
+# ===========================
+# NODE / REACT FRONTEND
+# ===========================
+
+# Node modules
+node_modules/
+citasmedicasfe/node_modules/
+
+# Build de React
+citasmedicasfe/build/
+
+# Archivos de cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Tests
+coverage/
+
+# Variables de entorno frontend
+citasmedicasfe/.env
+citasmedicasfe/.env.local
+citasmedicasfe/.env.development
+citasmedicasfe/.env.production
+citasmedicasfe/.env.test
+
+# ===========================
+# EDITORES DE CÓDIGO
+# ===========================
+
+# VS Code
+.vscode/
+
+# JetBrains (IDEA, WebStorm, etc)
+.idea/
+
+# ===========================
+# BASES DE DATOS / ARCHIVOS SENSIBLES
+# ===========================
+
+*.sql
+DBCitasMedicas.sql
+
+# ===========================
+# OTROS
+# ===========================
+
+# Archivos de producción
+*.war
+*.jar
+
+# Imágenes subidas
+citasmedicasbe/uploads/
+citasmedicasbe/images/

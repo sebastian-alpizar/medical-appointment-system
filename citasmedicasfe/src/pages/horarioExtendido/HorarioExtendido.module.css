@@ -1,0 +1,90 @@
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1190px;
+    background-color: white;
+
+    justify-content: center;
+    margin-left: 125px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+/* Para ocultar la barra de scroll pero mantener la funcionalidad */
+.horarios-container::-webkit-scrollbar {
+    display: none;
+}
+.medico-extendido {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+    margin-right: 100px;
+}
+.medico {
+    padding: 20px;
+    width: 900px;
+
+    display: flex;
+    margin-top: 10px;
+    height: 195px;
+    background-color: white;
+}
+.line2 {
+    width: 1250px;
+    height: 2px;
+    background-color: #ededed;
+}
+.prev-button, .next-button {
+    display: flex;
+    height: 30px;
+    width: 70px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #dbe8ff;
+    color: #3674ff;
+    font-weight: bold;
+    margin-top: -100px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    border-radius: 100px;
+}
+.prev-button img {
+    width: 20px;
+    transform: none;
+}
+.next-button img {
+    width: 20px;
+    transform: scale(-1);
+}
+.prev-button:hover, .next-button:hover {
+    background-color: #3674ff;
+    color: #dbe8ff;
+    transform: scale(1.1);
+}
+.schedule-button img {
+    width: 20px;
+    transform: scaleX(-1);
+}
+.back-button {
+    width: 90px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    transition: all 0.5s ease;
+    border-radius: 100px;
+    background-color: #3674ff;
+    color: white;
+}
+.back-button:hover {
+    background-color: #dbe8ff;
+    color: #3674ff;
+    transform: scale(1.1);
+}

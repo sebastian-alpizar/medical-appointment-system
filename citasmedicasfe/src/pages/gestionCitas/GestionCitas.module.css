@@ -1,0 +1,155 @@
+.body {
+    align-items: start;
+    background-color: white;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.notFound {
+    background-color: white;
+    color: #777777;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.doctor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 90px;
+    width: 100%;
+}
+.doctor p{
+    font-size: 35px;
+}
+.doctor p:nth-child(2){
+    font-style: italic;
+}
+.cita {
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+.doctor p:nth-child(2) {
+    color: #3674ff;
+}
+select {
+    background-color: white;
+    padding: 10.4px;
+    width: 250px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid #d1d1d1;
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #ededed;
+}
+.line + div {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.paciente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    gap: 20px;
+    font-size: 20px;
+}
+.paciente p:nth-of-type(1) {
+    font-weight: bold;
+    width: 250px;
+}
+.paciente div {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: rgba(204, 149, 0, 0.59);
+    width: 215px;
+    margin-right: 80px;
+}
+.paciente div p:nth-of-type(2) {
+    margin-left: -10px;
+}
+.paciente p:nth-of-type(2) {
+    padding: 20px;
+    border-radius: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+}
+.pending {
+    background-color: yellow;
+}
+.attended {
+    background-color: #00bc00;
+}
+.aceptar-cancelar {
+    display: flex;
+    text-align: center;
+    margin-left: 80px;
+    gap: 30px;
+}
+.ver {
+    margin-left: 80px;
+}
+.view-button{
+    color: #007bff;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: normal;
+}
+.attend-button, .cancel-button, .view-button {
+    text-decoration: none;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+}
+.attend-button:hover, .cancel-button:hover, .view-button:hover {
+    transform: scale(1.1);
+}
+.attend-button:hover{
+    background-color: rgba(126,255,95,0.59);
+}
+.cancel-button:hover{
+    background-color: rgba(255,98,80,0.59);
+}
+.attend-button {
+    color: #00a800;
+}
+.cancel-button {
+    color: red;
+}
+.attend-button img, .cancel-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.view-button img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.paciente > img {
+    width: 55px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 100%;
+}
