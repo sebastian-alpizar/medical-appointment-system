@@ -1,106 +1,39 @@
-# ===========================
-# GLOBAL SETTINGS
-# ===========================
+### Root .gitignore
 
-# Sistema operativo
-.DS_Store
-Thumbs.db
+# Ignore node_modules in any folder
+node_modules/
 
 # Logs
 *.log
-logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Archivos temporales
-*.tmp
-*.swp
-*.swo
+# OS files
+.DS_Store
+Thumbs.db
 
-# ===========================
-# JAVA / SPRING BOOT / MAVEN
-# ===========================
+# Environment files
+.env
+.env.local
+.env.*.local
 
-# Directorios de build
-target/
-out/
-
-# Archivos generados por Maven
-.mvn/wrapper/maven-wrapper.jar
-
-# IntelliJ Idea
-*.iml
+# IDEs
+.vscode/
 .idea/
-*.iws
-*.ipr
+*.iml
 
-# Eclipse / STS
-.project
-.classpath
-.factorypath
-.settings/
-.springBeans
+# Package lock files (optional)
+package-lock.json
+yarn.lock
 
-# Archivos de compilación
-*.class
-
-# Variables de entorno backend
-citasmedicasbe/.env
-citasmedicasbe/*.env
-
-# ===========================
-# NODE / REACT FRONTEND
-# ===========================
-
-# Node modules
-node_modules/
-citasmedicasfe/node_modules/
-
-# Build de React
+# Ignore build artifacts from frontend
 citasmedicasfe/build/
 
-# Archivos de cache
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
+# Ignore compiled backend files
+citasmedicasbe/target/
 
-# Tests
-coverage/
-
-# Variables de entorno frontend
-citasmedicasfe/.env
-citasmedicasfe/.env.local
-citasmedicasfe/.env.development
-citasmedicasfe/.env.production
-citasmedicasfe/.env.test
-
-# ===========================
-# EDITORES DE CÓDIGO
-# ===========================
-
-# VS Code
-.vscode/
-
-# JetBrains (IDEA, WebStorm, etc)
-.idea/
-
-# ===========================
-# BASES DE DATOS / ARCHIVOS SENSIBLES
-# ===========================
-
-*.sql
-DBCitasMedicas.sql
-
-# ===========================
-# OTROS
-# ===========================
-
-# Archivos de producción
-*.war
-*.jar
-
-# Imágenes subidas
+# Ignore image uploads (backend)
+citasmedicasbe/src/main/resources/static/uploads/
 citasmedicasbe/uploads/
-citasmedicasbe/images/
+images/

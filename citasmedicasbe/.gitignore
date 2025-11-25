@@ -1,33 +1,40 @@
-HELP.md
+### Java / Maven / Spring Boot ###
+
+# Maven target directory
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Compiled classes
+*.class
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Logs
+*.log
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Spring Boot dev tools
+.spring-boot-devtools.properties
 
-### VS Code ###
+# IntelliJ / Eclipse / VSCode
 .vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / Properties
+application-dev.properties
+application-test.properties
+application-prod.properties
+*.env
+
+# Maven Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Uploaded or generated images
+src/main/resources/static/uploads/
+uploads/
+C:/AAA/images/   # Evita subir rutas locales
+
