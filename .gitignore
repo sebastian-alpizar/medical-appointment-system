@@ -36,4 +36,3 @@ citasmedicasbe/target/
 # Ignore image uploads (backend)
 citasmedicasbe/src/main/resources/static/uploads/
 citasmedicasbe/uploads/
-images/
