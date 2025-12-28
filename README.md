@@ -1,7 +1,7 @@
-# 🏥 Medical Appointment System
+# Medical Appointment System
 Sistema web de gestión de citas médicas — SPA con Spring Boot y React.
 
-## 📌 Descripción General
+## Descripción General
 Medical Appointment System es una aplicación web tipo Single Page Application (SPA) diseñada para gestionar citas médicas en línea.
 Permite a pacientes buscar médicos por especialidad y ubicación, visualizar horarios disponibles y reservar citas fácilmente.
 
@@ -23,21 +23,21 @@ Incluye:
 - API REST con Spring Boot + MySQL
 - Subida y visualización de fotos de perfil
 
-## ✨ Características Principales
+## Características Principales
 
-✔️ Búsqueda de médicos por especialidad y ubicación  
-✔️ Visualización de espacios disponibles por día/hora  
-✔️ Registro y aprobación de médicos  
-✔️ Gestión de horarios semanales y frecuencia de citas  
-✔️ Confirmación, cancelación y finalización de citas  
-✔️ Histórico detallado para médicos y pacientes  
-✔️ Autenticación y autorización con JWT  
-✔️ SPA moderna con React + Fetch API  
-✔️ Backend escalable con Spring Boot y JPA  
-✔️ Soporte para fotos de perfil  
+Búsqueda de médicos por especialidad y ubicación  
+Visualización de espacios disponibles por día/hora  
+Registro y aprobación de médicos  
+Gestión de horarios semanales y frecuencia de citas  
+Confirmación, cancelación y finalización de citas  
+Histórico detallado para médicos y pacientes  
+Autenticación y autorización con JWT  
+SPA moderna con React + Fetch API  
+Backend escalable con Spring Boot y JPA  
+Soporte para fotos de perfil  
 
-## 🏗️ Tecnologías Utilizadas
-### 🗄️ Backend
+## Tecnologías Utilizadas
+### Backend
 
 - Spring Boot 3
 - Java 17
@@ -47,7 +47,7 @@ Incluye:
 - Maven
 - Arquitectura en capas (presentation, logic, data)
 
-### 🧩 Frontend
+### Frontend
 
 - React (SPA)
 - React Router
@@ -55,18 +55,18 @@ Incluye:
 - Fetch API
 - Vite (opcional), o React Scripts
 
-### 🛠️ Tooling
+### Tooling
 
 - Node.js
 - Git & GitHub
 - FileTree Pro
 - Maven Wrapper
 
-## 🧱 Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 El proyecto está dividido en dos módulos principales:
 
-### 🔧 Backend (Spring Boot)
+### Backend (Spring Boot)
 ```bash
 src/main/java/com/example/citasmedicasbe
 │── data/            → Repositorios (Admin, Médico, Paciente, Citas, Horarios)
@@ -83,7 +83,7 @@ Listado de componentes clave:
 - Repositories: UsuarioRepository, MedicoRepository, PacienteRepository, CitaRepository
 - Security: SecurityConfig, TokenService, JwtConfig
 
-### 🖥️ Frontend (React SPA)
+### Frontend (React SPA)
 ```bash
 src/
 │── components/    → Header, Footer, RequestImage
@@ -105,19 +105,19 @@ Pantallas principales:
 - Histórico del Paciente
 
 Aprobación de Médicos (Admin)
-## 🧰 Requisitos Previos
+## Requisitos Previos
 
 Asegúrate de tener instalado:
 ### Backend
 - Java 17
 - Maven
 - MySQL 8
-- 
+
 ### Frontend
 - Node.js >= 18
 - NPM o Yarn
 
-## 🚀 Instalación
+## Instalación
 1. Clonar el repositorio
 
 ```bash
@@ -125,7 +125,7 @@ git clone https://github.com/sebastian-alpizar/medical-appointment-system.git
 cd medical-appointment-system
 ```
 
-### ⚙️ Configuración del Backend (Spring Boot)
+### Configuración del Backend (Spring Boot)
 
 2. Configurar el archivo `application.properties`:
 - Credenciales MySQL
@@ -153,9 +153,9 @@ mvn clean install
 mvn spring-boot:run
 ```
 Backend por defecto:
-👉 http://localhost:8080
+http://localhost:8080
 
-### 🖥️ Configuración del Frontend (React)
+### Configuración del Frontend (React)
 5. Construir el proyecto
 ```bash
 cd citasmedicasfe
@@ -167,11 +167,11 @@ npm install
 npm start
 ```
 El frontend se ejecutará típicamente en:
-👉 http://localhost:3000
+http://localhost:3000
 
-## 📡 Comunicación del Sistema
+## Comunicación del Sistema
 
-🔄 Flujo General
+Flujo General
 
 - El paciente busca médicos por especialidad y ciudad
 - Elige un horario disponible
@@ -181,10 +181,10 @@ El frontend se ejecutará típicamente en:
 - El administrador aprueba médicos nuevos
 - Pacientes y médicos pueden consultar su historial
 
-## 📊 Ejemplos Visuales
+## Ejemplos Visuales
 ![System](docs/images/system.png)
 
-## 📦 Despliegue
+## Despliegue
 
 Opciones recomendadas:
 
@@ -209,7 +209,7 @@ Publicar `/build` o `/dist` en:
 - Render
 - GitHub Pages
 
-## 👤 Autor
+## Autor
 
 **Desarrollado por Sebastián Alpízar Porras**  
 GitHub: https://github.com/sebastian-alpizar  
