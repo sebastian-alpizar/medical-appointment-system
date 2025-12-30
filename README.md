@@ -182,7 +182,7 @@ Flujo General
 - Pacientes y médicos pueden consultar su historial
 
 ## Ejemplos Visuales
-![System](docs/images/system.png)
+![System](docs/images/medical.png)
 
 ## Despliegue
 
